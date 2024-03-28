@@ -1,0 +1,48 @@
+/* Card container */
+.card {
+    width: 500px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card title */
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Card content */
+.card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Form input fields */
+.card input[type="text"],input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Card footer */
+.card .footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Social icons */
+.card .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card .social-icons a {
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
